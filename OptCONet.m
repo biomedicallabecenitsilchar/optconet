@@ -1,5 +1,21 @@
 clc; 
 % Add the path of the Files
+% OptCoNet: an optimized convolutional neural network for an
+% automatic diagnosis of COVID-19               %
+%                                                                   %
+%  Developed in MATLAB R2020a                                 %
+%                                                                   %
+%  Author and programmer: Tripti Goel                        %
+%                                                                   %
+%         e-Mail: triptigoel83@gmail.com             %
+%                  triptigoel@ece.nits.ac.in
+%
+%       Homepage: http://www.nits.ac.in/departments/ece/ece.php                      %
+%                                                                   %
+%   Main paper: Tripti Goel, R Murugan, Seyedali Mirjalili, Deba Kumar Chakrabartty,
+%   "OptCoNet: An Optimized Convolutional Neural Network for an Automatic Diagnosis of COVID-19", 
+%    Applied Intelligence ,DOI: 10.1007/s10489-020-01904-z              %
+%            
 
 digitDatasetPath = fullfile('C:\Users\MIPLAB\Documents\Covid\XRay\COVIDDatabase');
 imds = imageDatastore(digitDatasetPath, ...
